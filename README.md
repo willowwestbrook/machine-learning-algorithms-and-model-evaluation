@@ -49,18 +49,18 @@ Each lab folder contains a Python script (`.py`), Jupyter notebook (`.ipynb`), w
 
 ## Lab Summaries
 
-| Lab | Topic | Key Techniques |
-|-----|-------|----------------|
-| Lab 1 | Regression Diagnostics | VIF, Shapiro-Wilk, Breusch-Pagan, Durbin-Watson |
-| Lab 2 | Regularization Models | Ridge, Lasso, Elastic Net, GridSearchCV |
-| Lab 3 | Exploratory Data Analysis | Distributions, correlations, summary statistics |
-| Lab 4 | Clustering Analysis | K-means, elbow method, cluster profiling |
-| Lab 5 | Unsupervised Learning | KNN, hierarchical clustering, decision trees, Naive Bayes, SVM, association rules |
-| Lab 6 | Neural Network Training | FNN with PyTorch, Adam optimizer |
-| Lab 7 | CNN Models | Convolutional neural network for rating prediction |
-| Lab 8 | LSTM Time Series | Sequential LSTM model for forecasting |
+| Lab | Topic | Key Result |
+|-----|-------|------------|
+| Lab 1 | Regression Diagnostics | R²=0.71 on product monthly panel; identified heteroscedasticity via Breusch-Pagan |
+| Lab 2 | Regularization Models | Ridge outperformed Lasso/Elastic Net (R²=0.714); GridSearchCV tuning |
+| Lab 3 | Exploratory Data Analysis | Mean rating 4.08, 75% recommend rate, avg price $52.18; rating/recommendation correlation confirmed |
+| Lab 4 | Clustering Analysis | K=3 optimal (elbow method) — 3 distinct product segments by engagement and pricing tier |
+| Lab 5 | Unsupervised Learning | KNN, decision trees, Naive Bayes, SVM, association rules — full multi-model comparison |
+| Lab 6 | Neural Network Training | FNN (PyTorch): Test R²=0.703, RMSE=0.532 |
+| Lab 7 | CNN Models | CNN: Test RMSE=0.9487; smoothed predictions on volatile rating data |
+| Lab 8 | LSTM Time Series | LSTM: Test RMSE=0.9485; captured sequential rating trends |
 | Midterm | Full ML Pipeline | Multi-algorithm comparison across clustering, classification, and association |
-| Final | Deep Learning | FNN vs CNN vs LSTM comparison on product rating prediction |
+| Final | Deep Learning Comparison | FNN vs CNN vs LSTM on next-day rating prediction — all models RMSE ~0.82; feature engineering analysis |
 
 ---
 
